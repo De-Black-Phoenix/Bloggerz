@@ -1,0 +1,69 @@
+/* Fonts_Notes */
+/* Black - 900 */
+/* ExtraBold - 800 */
+/* Bold - 700 */
+/* SemiBold - 600 */
+/* Medium - 500 */
+/* Regular - 400 */
+/* Light - 300 */
+/* Thin - 200 */
+/* ExtraLight - 100 */
+
+/* Neue Haas Grotesk */
+@font-face {
+    font-family: "NeueHaasGrotesk";
+    src: url("../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.ttf");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url("../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url("../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Montserrat */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat/Montserrat-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat/Montserrat-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat/Montserrat-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
