@@ -1,1 +1,54 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/Fonts/Montserrat/Montserrat-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("./assets/Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayThin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("./assets/Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("./assets/Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("./assets/Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.ttf");
+  font-weight: 900;
+}
+
+
 @import "tailwindcss";
+
+/* Hide scrollbar for Webkit and Firefox */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom breakpoint */
+@media (min-width: 420px) and (max-width: 639px) {
+  .image-tweak {
+    height: 280px; /* or whatever looks better */
+  }
+}
