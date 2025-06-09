@@ -1,6 +1,12 @@
+import Navbar from "../Components/Navbar"
+import Footer from "../Components/Footer"
+
 function OpenBlogPage(){
     return(
-        <h1>Open_Blog_Page</h1>
+        <>
+            <Navbar />
+            <Footer />
+        </>
     )
 };
 
